@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas:
         'header header header header'
-        'Sidebar . Body .'
+        'sidebar . main .'
         'footer footer footer footer';
         
     background: #f0f0f0;
@@ -32,7 +32,7 @@ main {
 }
 
 .sidebar {
-    grid-area: Sidebar;
+    grid-area: sidebar;
     background-color: #0f0f0f;
     color: #f0f0f0;
 }
