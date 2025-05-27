@@ -1,25 +1,33 @@
 .container {
     display: grid;
     grid-template-areas:
-        'Header Header Header Header Header'
-        'Sidebar Whitespace Body Body Whitespace'
-        'Footer Footer Footer Footer Footer';
+        'header header header header'
+        'Sidebar . Body .'
+        'footer footer footer footer';
+        
     background: #f0f0f0;
     color: #0f0f0f;
 
 }
 
-.header {
-    grid-area: Header;
+header {
+    grid-area: header;
     background-color: #0f0f0f;
     color: #f0f0f0;
 
 }
 
-.footer {
-    grid-area: Footer;
+footer {
+    grid-area: footer;
     background-color: #0f0f0f;
     color: #f0f0f0;
+
+}
+
+main {
+    grid-area: main;
+    background-color: #dfaeed;
+    color: #0f0f0f;
 
 }
 
@@ -27,19 +35,4 @@
     grid-area: Sidebar;
     background-color: #0f0f0f;
     color: #f0f0f0;
-}
-
-.body {
-    grid-area: Body;
-    background-color: #dfaeed;
-    color: #0f0f0f;
-    
-
-}
-
-.whitespace {
-    grid-area: Whitespace;
-    background-color: #f0f0f0;
-    color: #0f0f0f;
-
 }
