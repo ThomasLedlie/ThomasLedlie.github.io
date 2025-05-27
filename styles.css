@@ -1,8 +1,9 @@
 .container {
+    display: grid;
     grid-template-areas:
-    'Header Header Header Header Header'
-    'Sidebar Whitespace Body Body Whitespace'
-    'Footer Footer Footer Footer Footer';
+        'Header Header Header Header Header'
+        'Sidebar Whitespace Body Body Whitespace'
+        'Footer Footer Footer Footer Footer';
     background: #f0f0f0;
     color: #0f0f0f;
 
