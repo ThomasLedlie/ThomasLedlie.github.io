@@ -36,10 +36,6 @@ p {
     font-family: 'Garamond', serif;
 }
 
-h2 {
-    font-family: 'Lucida Console' ,sans-serif;    
-}
-
 header {
     grid-area: header;
     background-color: #0f0f0f;
@@ -69,6 +65,18 @@ main {
     color: #f0f0f0;
 }
 
+.blog_entry {
+    background-color: beige;
+    color: #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    display: grid;
+    grid-template-areas:
+        "title_entry"
+        "text_entry";
+}
+
 .entry {
     background-color: beige;
     color: #0f0f0f;
@@ -77,11 +85,26 @@ main {
     border-radius: 1em;
     display: grid;
     grid-template-areas:
-    "h2 h2"
-    "image text_entry";
+        "title_entry title_entry"
+        "image_entry text_entry";
+    grid-template-columns: 1fr 7fr;
 }
 
 .text_entry {
+    grid-area: text_entry;
     color: #0f0f0f;
-    padding: 1em;
 }
+
+.image_entry {
+    grid-area: image_entry;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+
+}
+
+.title_entry {
+    grid-area: title_entry;
+    font-family: 'Lucida Console' ,sans-serif;    
+}
+
