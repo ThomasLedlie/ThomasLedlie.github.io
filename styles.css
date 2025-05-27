@@ -98,7 +98,6 @@ main {
 .image_entry {
     grid-area: image_entry;
     width: 10vw;
-    height: 10vh;
     margin: 1em;
 
 }
