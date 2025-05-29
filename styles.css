@@ -123,3 +123,9 @@ main {
     font-family: 'Lucida Console' ,sans-serif;   
     justify-self: start;
 }
+
+.image_break {
+    display: block;
+    margin: auto;
+    height: 10%;
+}
