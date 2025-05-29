@@ -39,10 +39,6 @@
 }
 
 a.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5em;
     color: #f0f0f0;
     background-color: #0f0f0f;
     font-family: 'Helvetica', sans-serif;
@@ -84,6 +80,11 @@ main {
 
 .sidebar {
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #0f0f0f;
     color: #f0f0f0;
 }
