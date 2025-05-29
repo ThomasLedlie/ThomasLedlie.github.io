@@ -35,6 +35,7 @@ a.button {
     font-family: 'Helvetica', sans-serif;
     text-align: left;
     height: auto;
+    margin: 1vh;
 }
 
 
@@ -44,6 +45,8 @@ body {
 }
 p {
     font-family: 'Garamond', serif;
+    text-align: start;
+    text-justify: start;
 }
 
 header {
@@ -52,6 +55,7 @@ header {
     color: #4af626;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 footer {
@@ -59,6 +63,7 @@ footer {
     background-color: #0f0f0f;
     color: #f0f0f0;
     position: sticky;
+    border-top: 1px solid #f0f0f0;
 
 }
 
@@ -76,9 +81,10 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    gap: 5vh;
+    gap: 2vh;
     background-color: #0f0f0f;
     color: #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .entry {
@@ -86,7 +92,8 @@ main {
     color: #0f0f0f;
     padding: 1em;
     margin: 1em;
-    height: auto;
+    max-height: 270px;
+    overflow: scroll;
     border-radius: 1em;
     display: grid;
     grid-template-areas:
@@ -97,10 +104,10 @@ main {
 .entry_div {
     grid-area: entry_div;
     color: #0f0f0f;
-    overflow: hidden;
+    overflow-y: scroll;
     padding: 0;
     margin: 0;
-
+    justify-self: stretch;
 }
 
 .entry_image_left {
@@ -113,6 +120,6 @@ main {
 
 .entry_title {
     grid-area: entry_title;
-    font-family: 'Lucida Console' ,sans-serif;    
+    font-family: 'Lucida Console' ,sans-serif;   
+    justify-self: start;
 }
-
