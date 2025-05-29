@@ -1,7 +1,3 @@
-/*@media (min-width: 600px) {
-  
-}*/
-
 .container {
     display: grid;
     grid-template-areas:
@@ -14,6 +10,22 @@
     grid-template-columns: 6vw 12vw 70vw 12vw;
     grid-template-rows: auto 1fr auto;
 
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        display: grid;
+        grid-template-areas:
+            'header'
+            'sidebar'
+            'main'
+            'footer';
+        min-height: 100vh;    
+        background: #f0f0f0;
+        color: #0f0f0f;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 1fr;
+    } 
 }
 
 a.button {
