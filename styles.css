@@ -27,15 +27,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto 1fr auto;
     } 
-    
-    .sidebar {
-        grid-area: sidebar;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        background-color: #0f0f0f;
-        color: #f0f0f0;
-    }
 }
 
 a.button {
@@ -81,10 +72,11 @@ main {
 .sidebar {
     grid-area: sidebar;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
     gap: 5vh;
-    justify-content: flex-start;
-    align-items: center;
     background-color: #0f0f0f;
     color: #f0f0f0;
 }
