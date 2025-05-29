@@ -65,18 +65,6 @@ main {
     color: #f0f0f0;
 }
 
-.blog_entry {
-    background-color: beige;
-    color: #0f0f0f;
-    padding: 1em;
-    margin: 1em;
-    border-radius: 1em;
-    display: grid;
-    grid-template-areas:
-        "title_entry"
-        "text_entry";
-}
-
 .entry {
     background-color: beige;
     color: #0f0f0f;
@@ -85,25 +73,27 @@ main {
     border-radius: 1em;
     display: grid;
     grid-template-areas:
-        "title_entry title_entry"
-        "image_entry text_entry";
-    grid-template-columns: 1fr 7fr;
+        "entry_title"
+        "entry_div";
 }
 
-.text_entry {
-    grid-area: text_entry;
+.entry_div {
+    grid-area: entry_div;
     color: #0f0f0f;
+    overflow: hidden;
 }
 
-.image_entry {
-    grid-area: image_entry;
-    width: 10vw;
+.entry_image_left {
+    grid-area: entry_image_left;
+    width: max(100px, 10vw);
     margin: 1em;
+    float: left;
+
 
 }
 
-.title_entry {
-    grid-area: title_entry;
+.entry_title {
+    grid-area: entry_title;
     font-family: 'Lucida Console' ,sans-serif;    
 }
 
