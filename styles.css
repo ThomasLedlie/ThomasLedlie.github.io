@@ -38,6 +38,11 @@ a.button {
     margin: 1vh;
 }
 
+.svg_text {
+    top: 0.125em;
+    position: relative;
+    left: -0.5em;
+}
 
 body {
     padding: 0;
