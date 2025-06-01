@@ -53,6 +53,7 @@ section[class^="container"] {
 /*Hero*/
 section.hero{
     padding-top: 72px;
+    padding-bottom: 1rem;
 }
 
 section.hero i{
@@ -94,6 +95,9 @@ section.projects .card{
     margin-inline: auto;
 }
 
+section.projects {
+    padding-bottom: 1rem;
+}
 
 /* Societes & Competition Teams */
 
@@ -109,6 +113,9 @@ section.societes i{
     margin: 1rem;
 }
 
+section.societes {
+    padding-bottom: 1rem;
+}
 
 /*Footer / Get in Touch*/
 section.get_in_touch i{
