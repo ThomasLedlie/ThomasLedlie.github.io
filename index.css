@@ -7,13 +7,6 @@ section:nth-child(2n) {
     background-color: #ecf2ff;
 }
 
-section.card{
-    border: 2px solid #0f0f0f;
-    box-shadow: 4px 4px #0f0f0f;
-    max-width: 22rem;
-    margin-inline: auto;
-}
-
 section[class^="container"] {
     padding: 4rem 2rem;
 }
@@ -89,3 +82,24 @@ section.projects img{
     width:80%;
 }
 
+section.projects .card{
+    border: 2px solid #0f0f0f;
+    box-shadow: 4px 4px #0f0f0f;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+
+/* Societes & Competition Teams */
+
+section.societes .card{
+    border: 2px solid #0f0f0f;
+    box-shadow: 4px 4px #0f0f0f;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+section.societes i{
+    font-size: 8rem;
+    margin: 1rem;
+}
