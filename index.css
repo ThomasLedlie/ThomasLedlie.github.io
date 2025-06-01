@@ -1,10 +1,10 @@
 /*Global*/
 :root {
-    --accent-colour: #ff0045;
+    --accent-colour: #e4c1f9;
 }
 
 section:nth-child(2n) {
-    background-color: #ecf2ff;
+    background-color: #ede8f5;
 }
 
 section[class^="container"] {
@@ -26,7 +26,7 @@ section[class^="container"] {
 }
 
 .btn-outline-dark:hover {
-    border: 2px solid var(--accent-colour);
+    border: 2px solid #0f0f0f;
     box-shadow: 4px 4px var(--accent-colour);
 }
 
