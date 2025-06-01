@@ -67,7 +67,7 @@ section.projects i{
 }
 
 section.projects img{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2rem auto 0 auto;
     width:80%;
 }
+
