@@ -55,13 +55,18 @@ section.hero{
     padding-top: 72px;
 }
 
+section.hero i{
+    font-size: 16rem;
+    padding: 4rem;
+}
+
 @media screen and (max-width: 576px) {
     section.hero{
         text-align: center;
     }
 
-    section.hero img{
-        width: 70%;
+    section.hero i{
+        font-size: 8rem;
     }
 }
 
