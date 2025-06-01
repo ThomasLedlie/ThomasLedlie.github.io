@@ -3,6 +3,17 @@
     --accent-colour: #ff0045;
 }
 
+section:nth-child(2n) {
+    background-color: #ecf2ff;
+}
+
+section.card{
+    border: 2px solid #0f0f0f;
+    box-shadow: 4px 4px #0f0f0f;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
 section[class^="container"] {
     padding: 4rem 2rem;
 }
@@ -14,6 +25,16 @@ section[class^="container"] {
     nav [class^="container"] {
         padding: 0 4rem;
     }
+}
+
+.btn-outline-dark {
+    border: 2px solid #0f0f0f;
+    box-shadow: 4px 4px #0f0f0f;
+}
+
+.btn-outline-dark:hover {
+    border: 2px solid var(--accent-colour);
+    box-shadow: 4px 4px var(--accent-colour);
 }
 
 /*Navbar*/
@@ -38,7 +59,6 @@ section[class^="container"] {
 
 /*Hero*/
 section.hero{
-    background-color: #ecf2ff;
     padding-top: 72px;
 }
 
@@ -52,15 +72,13 @@ section.hero{
     }
 }
 
-/*Projetcs & Societies & Teams*/
-
-section.card{
-    border: 2px solid #0f0f0f;
-    box-shadow: 4px 4px #0f0f0f;
-    max-width: 22rem;
-    margin-inline: auto;
+/* About */
+@media screen and (min-width: 1024px) {
+    section.about_me .container{
+        width: 60%;
+    }
 }
-
+/* Projetcs */
 section.projects i{
     font-size: 8rem;
     margin: 1rem;
