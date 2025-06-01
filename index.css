@@ -103,3 +103,12 @@ section.societes i{
     font-size: 8rem;
     margin: 1rem;
 }
+
+
+/*Footer / Get in Touch*/
+
+section.get_in_touch i{
+    font-size: 2rem;
+    margin: 2rem;
+    color: #0f0f0f;
+}
