@@ -74,7 +74,7 @@ section.hero i{
 /* About */
 @media screen and (min-width: 1024px) {
     section.about_me .container{
-        width: 60%;
+        width: 80%;
     }
 }
 /* Projetcs */
@@ -102,19 +102,19 @@ section.projects {
 
 /* Societies & Competition Teams */
 
-section.societies .card{
+section.extracurriculars .card{
     border: 2px solid #0f0f0f;
     box-shadow: 4px 4px #0f0f0f;
     max-width: 22rem;
     margin-inline: auto;
 }
 
-section.societies i{
+section.extracurriculars i{
     font-size: 8rem;
     margin: 1rem;
 }
 
-section.societies {
+section.extracurriculars {
     padding-bottom: 1rem;
 }
 
